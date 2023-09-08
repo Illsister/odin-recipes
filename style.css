@@ -1,3 +1,28 @@
 body {
     background-color: #FFF5E1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hummus-details {
+    display: none;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.hummus:hover .hummus-details{
+    display: block;
+}
+
+.link:hover {
+    background-color: #9d733d;
+    color: black;
+}
+
+.leer {
+    margin-bottom: 50px;
+}
+
+.link {
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
 }
